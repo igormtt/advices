@@ -1,0 +1,23 @@
+.header{
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.icons a {
+  color: #FFF;
+  width: 20px;
+}
+
+.icons a:hover {
+  color: #bababa;
+}
